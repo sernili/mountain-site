@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+} 
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+p {
+    color: #40514E;
+}
+
+hr {
+    border-style: none;
+    border-bottom: 8px dotted #EAF6F6;
+    width: 5%;
+    margin: 100px auto;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    margin: 0;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    
+} 
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.mountain {
+    max-width: 500px;
+    width: 50%;
+}
+
+.profile img {
+    width: 150px;
+    margin: 50px auto; 
+}
+
+.profile,
+.contact-me {
+    width: 30%;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.dove-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    border-radius: 5px;
+	background:linear-gradient(to bottom, #66bfbf 5%, #11999E 100%);
+	background-color:#61adad;
+	display: inline-block;
+	cursor: pointer;
+	color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    
+    padding: 3px 25px;
+    margin: 30px auto;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background:linear-gradient(to bottom, #11999E 5%, #66bfbf 100%);
+	background-color:#66bfbf;
+}
+
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+    background: #66BFBF;
+    height: auto;
+    margin: 30px 0 0;
+    padding-top: 40px;
+}
+
+.bottom-container a {
+    margin: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #11999E;
+    transition: .25s ease-in-out;
+}
+
+.bottom-container a:hover {
+    color: #ffffff;
+}
+
+
+.bottom-container p {
+    font-size: .625rem;
+    color: #EAF6F6;
+    margin: 0;
+    padding: 30px;
+}
