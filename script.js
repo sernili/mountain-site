@@ -1,5 +1,5 @@
 // For soft scroll in navbar
-document.querySelectorAll('.nav-link').forEach(anchor => {
+document.querySelectorAll('.soft-scroll').forEach(anchor => {
     anchor.addEventListener('click', (event) => {
         event.preventDefault();
 
@@ -7,6 +7,7 @@ document.querySelectorAll('.nav-link').forEach(anchor => {
         hrefAttribute.scrollIntoView({ behavior: 'smooth'});
     });
 });
+
 
 // Soft scroll with scroll button
 document.querySelector('.scroll-btn').addEventListener("click", () => {
