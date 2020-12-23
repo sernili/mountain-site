@@ -7,53 +7,132 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- ? danch, dann hat es das Favicon angezeigt :) -->
     <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
 
     <title>Lisa Sachse | Frontend Developer</title>
 </head>
 <body>
-    <div class="top-container">
-        <img class="top-cloud" src="img/cloud.png" alt="cloud-image">
-        <h1>Hi, I'm Lisa.</h1>
-        <h2>a Frontend Developer.</h2>
-        <img class="bottom-cloud" src="img/cloud.png" alt="cloud-image">
-        <img class="mountain" src="img/mountain.png" alt="mountain-image">
-    </div>
-    <div class="middle-container">
-        <div class="profile">
-          <img src="img/ich.png" alt="">
-          <h2>Hello.</h2>
-          <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+    
+  <nav>
+    <ul class="nav-list">
+      <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+      <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+      <li class="nav-item"><a href="#projects-overview" class="nav-link">Projects</a></li>
+      <li class="nav-item"><a href="#contact-me" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+      <h1 class="title">Hi, I'm Lisa.</h1>
+      <h2 class="subtitle">a Frontend Developer.</h2>
+  </header>
+
+
+  <main>
+
+      <section id="profile">
+        <img src="img/ich.png" alt="">
+        <h2>Hello.</h2>
+        <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+      </section>
+      
+      
+      <hr>
+
+
+      <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skill-row">
+          <h3>Lorem & Ipsum</h3>
+          <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
         </div>
-        <hr>
-        <div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill-row">
-            <img class="code-img skills-img" src="img/code.png" alt="">
-            <h3>Lorem & Ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+        <div class="skill-row">
+          <h3>Lorem Ipsum Dolor</h3>
+          <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+        </div>
+      </section>
+      
+      
+      <hr>
+
+
+      <section id="projects-overview">
+        <h2>My Projects</h2>
+
+        <div class="project-card-container">
+
+          <div class="projects-card">
+            <img src="https://picsum.photos/400/250">
+            <div class="project-text">
+              <h3 class="project-title">Project1</h3>
+              <p class="project-description">Lorem ipsum dolor sit amet.</p>
+            </div>
           </div>
-          <div class="skill-row">
-            <img class="dove-img skills-img" src="img/dove.png" alt="">
-            <h3>Lorem Ipsum Dolor</h3>
-            <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+
+          <div class="projects-card">
+            <img src="https://picsum.photos/400/250">
+            <div class="project-text">
+              <h3 class="project-title">Project1</h3>
+              <p class="project-description">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+
+          <div class="projects-card">
+            <img src="https://picsum.photos/400/250">
+            <div class="project-text">
+              <h3 class="project-title">Project1</h3>
+              <p class="project-description">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+
+          <div class="projects-card">
+            <img src="https://picsum.photos/400/250">
+            <div class="project-text">
+              <h3 class="project-title">Project1</h3>
+              <p class="project-description">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+
+          <div class="projects-card">
+            <img src="https://picsum.photos/400/250">
+            <div class="project-text">
+              <h3 class="project-title">Project1</h3>
+              <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, sed?</p>
+            </div>
           </div>
         </div>
-        <hr>
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-          <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-          <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+
+        <div class="github-link">
+          <h3 class="github-heading">You can also:</h3>
+          <p class="github-text">Check out my <a href="https://github.com/sernili" class="github-link" target="_blank">GitHub</a> here!</p>
         </div>
-      </div>
-      
-      
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/">Twitter</a>
-        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-        <p>© 2020 Lisa Sachse.</p>
-      </div>
-      
+
+      </section>
+
+
+      <hr>
+
+
+      <section id="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+        <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+        <a class="btn" href="mailto:li.sachse@gmail.com">CONTACT ME</a>
+      </section>
+    
+    
+    </main>
+    
+    
+    <footer class="bottom-container">
+      <p>Copyright © 2020 Lisa Sachse</p>
+    </footer>
+
+    <a href="#" class="scroll-btn hide-btn">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+     
+    <script src="script.js"></script>
 </body>
 </html>
