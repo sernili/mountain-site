@@ -107,7 +107,13 @@ nav {
     color: var(--white);
     text-decoration: none;
     padding: 20px;
+    display: inline-block;
+    transform: translateY(30px);
+    opacity: 0;
+    animation: comeUp 2s ease forwards;
+    animation-delay: 3s;
 }
+
 
 .nav-link:hover {
     opacity: .8;
@@ -132,6 +138,9 @@ header {
     margin-top: 150px;
     font-family: var(--regular-font);
     font-size: 6rem;
+    opacity: 0;
+    animation: comeUp 2s ease forwards;
+
 }
 
 .subtitle {
@@ -139,12 +148,21 @@ header {
     font-weight: 300;
     color: var(--white);
     letter-spacing: 3px;
+    opacity: 0;
+    animation: comeUp 2s ease forwards;
+    animation-delay: 1s;
+
 }
 
 header .btn {
     background-color: var(--white);
     color: var(--darker-color);
     margin-bottom: 150px;
+    transform: translateY(30px);
+    opacity: 0;
+    animation: comeUp1000 3s ease forwards;
+    animation-delay: 2s;
+
 }
 
 header img {
@@ -156,6 +174,10 @@ header img {
     border: 3px solid var(--white);
     border-radius: 50%;
     box-shadow: var(--black-shadow);
+    visibility: hidden;
+    animation: circleOut 2s cubic-bezier(.17,.67,.3,1.38) forwards;
+    animation-delay: 1.5s;
+
 }
 
 /* Main Section */
@@ -269,4 +291,43 @@ footer {
 .hide-btn {
     visibility: hidden;
     opacity: 0;
+}
+
+
+/*  Key Frames  */
+
+@keyframes comeUp {
+    0% {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes comeUp1000 {
+    0% {
+        transform: translateY(1000px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes circleOut {
+    0% {
+        transform: scale(0);
+        visibility: visible;
+    }
+    100% {
+        transform: scale(1);
+        visibility: visible; 
+    }
+    
 }
